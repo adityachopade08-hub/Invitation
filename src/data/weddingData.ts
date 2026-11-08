@@ -80,7 +80,7 @@ export const weddingData: WeddingData = {
       fullName: "Prasad Chopade",
       fatherName: "Gajanan Chopade",
       motherName: "Sadhana Chopade",
-      parentsText: "Son of Smt. Sadhana Chopade & Shri Gajanan Chopade"
+      parentsText: "Son of Mrs. Sadhana Chopade & Mr. Gajanan Chopade"
     },
     bride: {
       firstName: "Priyanka",
@@ -88,7 +88,7 @@ export const weddingData: WeddingData = {
       fullName: "Priyanka Deshpande",
       fatherName: "Parag Deshpande",
       motherName: "Shilpa Deshpande",
-      parentsText: "Daughter of Smt. Shilpa Deshpande & Shri Parag Deshpande"
+      parentsText: "Daughter of Mrs. Shilpa Deshpande & Mr Parag Deshpande"
     },
     hashtag: "#PriyankaWedsPrasad",
     couplePhoto: "/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.14.22_PM_1dd3b1c3.jpeg",
@@ -107,7 +107,7 @@ export const weddingData: WeddingData = {
     // Exactly 26 November 2026 at 12:14 PM IST (UTC+05:30)
     targetIsoWithTimezone: "2026-11-26T12:14:00+05:30",
     eventTargetName: "Auspicious Varmala Ceremony",
-    targetDisplayTime: "26 November 2026 at 12:14 PM (IST)",
+    targetDisplayTime: "26 November 2026 at 12:14 PM ",
     weddingDayMessage: "The Moment Has Arrived! ❤️"
   },
   events: [
@@ -116,7 +116,7 @@ export const weddingData: WeddingData = {
       name: "HALDI",
       subtitle: "Mangal Snanam & Fragrant Turmeric Rituals",
       date: "25 November 2026",
-      time: "5:30 PM",
+      time: "6:00 PM",
       venue: "Kuber Lawns, Nashik",
       description: "An auspicious ceremony of golden turmeric paste, yellow marigold garlands, and Vedic blessings wishing radiant glow, good fortune, and happiness for the couple.",
       visualTheme: "haldi"
@@ -136,7 +136,7 @@ export const weddingData: WeddingData = {
       name: "VIVAH (PHERAS)",
       subtitle: "The Sacred Vedic Nuptials & Seven Holy Vows",
       date: "26 November 2026",
-      time: "9:00 AM",
+      time: "8:30 AM",
       venue: "Kuber Lawns, Nashik",
       description: "The sanctified Vedic wedding rituals around the sacred Agni Kund, chanting of sacred shlokas, Saptapadi (seven circumambulations), and holy blessings of ancestors.",
       visualTheme: "vivah"

@@ -13,7 +13,7 @@ interface TimeLeft {
 }
 
 export const CountdownSection: React.FC = () => {
-  // Target: 26 November 2026 at 12:14 PM IST (UTC+05:30)
+  // Target: 26 November 2026 at 12:14 PM (UTC+05:30)
   const targetIso = weddingData.countdown.targetIsoWithTimezone;
   const targetTimestamp = new Date(targetIso).getTime();
 
@@ -59,7 +59,7 @@ export const CountdownSection: React.FC = () => {
           Countdown to Varmala
         </h2>
         
-        <MandalaDivider title="26 November 2026 · 12:14 PM IST" showSwastik={true} />
+        <MandalaDivider title="26 November 2026 · 12:14 PM" showSwastik={true} />
 
         <div className="flex items-center justify-center gap-2 text-xs sm:text-sm text-[#8C6D2B] font-serif-elegant font-semibold mb-8">
           <VarmalaMotif size={24} className="text-[#C2185B]" />
@@ -156,7 +156,7 @@ export const CountdownSection: React.FC = () => {
                 </p>
                 <div className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#FFF9E6] border border-[#E8D7B5] rounded-full text-xs font-semibold text-[#8C6D2B] uppercase tracking-wider">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                  <span>Varmala Ceremony Live · 12:14 PM IST</span>
+                  <span>Varmala Ceremony Live · 12:14 PM</span>
                 </div>
               </motion.div>
             )}
@@ -165,7 +165,7 @@ export const CountdownSection: React.FC = () => {
           {/* Subtitle badge below countdown */}
           <div className="mt-6 pt-4 border-t border-[#E8DFC8]/60 flex items-center justify-center gap-3 text-xs text-[#7D6B58] font-serif-elegant">
             <SwastikMotif size={16} className="text-[#8B0000]" />
-            <span>Targeting 26 November 2026, 12:14 PM (IST) · Kuber Lawns, Nashik</span>
+            <span>Targeting 26 November 2026, 12:14 PM · Kuber Lawns, Nashik</span>
             <SwastikMotif size={16} className="text-[#8B0000]" />
           </div>
         </motion.div>
