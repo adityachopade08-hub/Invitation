@@ -63,7 +63,7 @@ export const CountdownSection: React.FC = () => {
 
         <div className="flex items-center justify-center gap-2 text-xs sm:text-sm text-[#8C6D2B] font-serif-elegant font-semibold mb-8">
           <VarmalaMotif size={24} className="text-[#C2185B]" />
-          <span>Sacred Garland Exchange at 12:14 PM (Indian Standard Time)</span>
+          <span>Sacred Garland Exchange at 12:14 PM </span>
           <VarmalaMotif size={24} className="text-[#C2185B]" />
         </div>
 
@@ -165,7 +165,7 @@ export const CountdownSection: React.FC = () => {
           {/* Subtitle badge below countdown */}
           <div className="mt-6 pt-4 border-t border-[#E8DFC8]/60 flex items-center justify-center gap-3 text-xs text-[#7D6B58] font-serif-elegant">
             <SwastikMotif size={16} className="text-[#8B0000]" />
-            <span>Targeting 26 November 2026, 12:14 PM · Kuber Lawns, Nashik</span>
+            <span>At 26 November 2026, 12:14 PM · Kuber Lawns, Nashik</span>
             <SwastikMotif size={16} className="text-[#8B0000]" />
           </div>
         </motion.div>
