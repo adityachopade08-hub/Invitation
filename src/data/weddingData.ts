@@ -88,7 +88,7 @@ export const weddingData: WeddingData = {
       fullName: "Priyanka Deshpande",
       fatherName: "Parag Deshpande",
       motherName: "Shilpa Deshpande",
-      parentsText: "Daughter of Mrs. Shilpa Deshpande & Mr Parag Deshpande"
+      parentsText: "Daughter of Mrs. Shilpa Deshpande & Mr. Parag Deshpande"
     },
     hashtag: "#PriyankaWedsPrasad",
     couplePhoto: "/assets/aistudio/WhatsApp_Image_2026-11-07_at_11.14.22_PM_1dd3b1c3.jpeg",

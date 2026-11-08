@@ -140,7 +140,7 @@ export const InvitationSection: React.FC = () => {
                 Daughter of
               </p>
               <p className="font-serif-elegant text-base sm:text-lg text-[#4A3928] font-semibold">
-                Smt. {couple.bride.motherName} &amp; Shri {couple.bride.fatherName}
+                Mrs. {couple.bride.motherName} &amp; Mr. {couple.bride.fatherName}
               </p>
             </div>
 
@@ -169,7 +169,7 @@ export const InvitationSection: React.FC = () => {
                 Son of
               </p>
               <p className="font-serif-elegant text-base sm:text-lg text-[#4A3928] font-semibold">
-                Smt. {couple.groom.motherName} &amp; Shri {couple.groom.fatherName}
+                Mrs. {couple.groom.motherName} &amp; Mr. {couple.groom.fatherName}
               </p>
             </div>
           </div>
